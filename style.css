@@ -1,0 +1,27 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+#result-container {
+    margin-top: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+}
+
+#result-container ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#result-container li {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+#result-container li:last-child {
+    border-bottom: none;
+}

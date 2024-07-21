@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IP Details Search</title>
+    <link rel="stylesheet" href="style.css">
+    
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #ffd700; /* Gold */
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            background-color: #f8f8f8;
+            text-align: center;
+            padding: 10px;
+        }
+        nav a {
+            text-decoration: none;
+            color: #333;
+            padding: 10px;
+            margin: 0 5px;
+        }
+        nav a:hover {
+            background-color: #e0e0e0;
+        }
+        
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    
+    <header>
+        <h1>IP & DOMAIN SCANNER</h1>
+    </header>
+    <nav>
+        <a href="index.html">IP</a>
+        <a href="domain.html">DOMAIN</a>
+        <a href="about.html">ABOUT</a>
+        
+    </nav>
+    <h1>IP Details Search</h1>
+    <form>
+        <input type="text" id="ip-input" placeholder="Enter IP Address">
+        <button id="search-btn">Search</button>
+    </form>
+    <div id="result-container"></div>
+
+    <script src="script.js"></script>
+    <footer>
+        &copy; 2024 Ip Domain Scanner. All rights reserved.
+    </footer>
+</body>
+</html>
